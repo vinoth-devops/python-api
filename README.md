@@ -42,6 +42,7 @@ We will have below three endpoints from the app-server.
 ## Demo
 
 - Run the below command to expose the app command to machine.
+
   `kubectl port-forward svc/app 8000:8000`
 
 - Check the status
