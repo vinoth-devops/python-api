@@ -28,6 +28,7 @@ We will have below three endpoints from the app-server.
 - Import the app image and elasticsearch image to minikube
 
   `docker pull elasticsearch:8.5.0`
+  
   `minikube image load elasticsearch:8.5.0`
 
   `minikube image load app:1.0`
